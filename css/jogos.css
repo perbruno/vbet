@@ -1,0 +1,342 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
+
+:root {
+    --secondary-color: #fabb00;
+    background-color: #010114;
+    --bulma-primary: #a839ff;
+    --bulma-primary-hsl: hsl(273.5, 100%, 61.37%);
+    --bulma-primary-h: 273.5deg;
+    --bulma-primary-s: 100%;
+    --bulma-primary-l: 61.37%;
+    font-family: "Ralleway", "Inter", Arial, Helvetica, sans-serif;
+}
+
+#logout:hover {
+    cursor: pointer;
+}
+
+#bePro {
+    display: grid !important;
+    justify-content: center !important;
+}
+
+nav {
+    background: linear-gradient(0deg, rgba(1, 1, 20, 1) 33%, rgba(0, 0, 0, 1) 107%);
+}
+
+footer {
+    &.navbar-brand {
+        min-height: 7.5vh;
+    }
+}
+
+.navbar-item {
+    &.logo-alta {
+        height: 8rem;
+        padding: 0rem;
+        margin-inline-end: -7vw;
+        margin-block: -1rem -1.5rem;
+    }
+
+    img,
+    svg {
+        max-height: 4rem;
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    &.is-expanded {
+        mix-blend-mode: overlay;
+    }
+}
+
+
+figure.is-flex img {
+    border-radius: 20% 20% 0 0 !important;
+}
+
+.cell.blocked {
+    position: relative;
+
+    .box {
+        mix-blend-mode: luminosity;
+    }
+}
+
+figure.desc img{
+    border-radius: 1.25ch;
+    ;
+}
+
+.is-secondary{
+    color: var(--secondary-color);
+}
+
+.block-icon {
+    position: absolute;
+    top: 20%;
+    left: 36%;
+}
+
+.box {
+    border-radius: 20%;
+    background-clip: padding-box;
+    min-height: 40vw;
+
+    &.purple-grad {
+        background: linear-gradient(to bottom, rgb(168.16, 57.63, 255), rgb(142.8, 0, 255));
+    }
+
+    &.orange-grad {
+        background: linear-gradient(to bottom, rgb(255, 248, 153), rgb(255, 106, 3));
+    }
+
+    &.p-01 {
+        padding: 0.3rem;
+    }
+
+    &.primary {
+        background-color: rgb(140.17, 57.63, 255);
+        background: linear-gradient(180deg, rgb(140.17, 57.63, 255) 80%, rgb(84.1, 34.58, 153) 95%);
+
+    }
+
+    &.secondary {
+        background-color: #fabb00;
+        background: linear-gradient(180deg, #fabb00 70%, #e24400 90%);
+    }
+}
+
+.vector {
+    mix-blend-mode: color-dodge;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 1.2rem;
+    top: 2.55rem;
+    right: 20px;
+}
+
+.trophy {
+    max-width: 80%;
+    width: 4rem;
+    position: absolute;
+    z-index: 3;
+    bottom: -3rem;
+    left: 0.9rem;
+    background: radial-gradient(circle, rgba(231, 143, 85, 0.769) 0.5%, #ff930473 31%, rgba(245, 203, 42, 0.01) 70%);
+}
+
+.is-3 .is-relative {
+    width: 5.9rem;
+}
+
+
+.frame-5 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    left: 0;
+}
+
+
+.CLIQUE-AQUI-e-SEJA {
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 23.2px;
+    letter-spacing: 0;
+    line-height: 23.2px;
+    z-index: 3;
+    position: relative;
+}
+
+.text-wrapper-7 {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.text-wrapper-8 {
+    font-weight: 900;
+    color: #fabb00;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.text-wrapper-9 {
+    font-family: "Raleway", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame-6 {
+    width: 6.3rem;
+    height: 8rem;
+    background-image: url(https://c.animaapp.com/K2IyW8PQ/img/group@4x.png);
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+.overlap-2 {
+    height: 9.5rem;
+    background: radial-gradient(50% 50% at 50% 50%, rgb(213, 69, 93) 0%, rgba(213, 69, 93, 0) 100%);
+}
+
+.group {
+    position: absolute;
+    width: 73px;
+    height: 64px;
+    top: 0rem;
+    right: 11.3rem;
+}
+
+.group-2 {
+    position: absolute;
+    width: 53px;
+    height: 54px;
+    top: 0.4rem;
+    right: 5.7rem;
+}
+
+.group-3 {
+    position: absolute;
+    width: 58px;
+    height: 51px;
+    top: 5.5rem;
+    left: 6rem;
+}
+
+.group-4 {
+    position: absolute;
+    width: 58px;
+    height: 51px;
+    top: 5rem;
+    right: 5.8rem;
+}
+
+
+.ellipse-2 {
+    position: absolute;
+    width: 10rem;
+    height: 9rem;
+    background-color: #370051;
+    background: radial-gradient(50% 50% at 50% 50%, rgb(61, 19, 26) 0%, rgba(203, 112, 127, 0.31) 100%);
+    border-radius: 54.5px/53.5px;
+    filter: blur(42.7px);
+    opacity: 0.8;
+    right: 20%;
+    z-index: -1;
+}
+
+.frame-7 {
+    position: absolute;
+    width: 343px;
+    height: 146px;
+    top: 523px;
+    left: 16px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: radial-gradient(50% 50% at 50% 50%, rgb(213, 69, 93) 0%, rgba(213, 69, 93, 0) 100%);
+}
+
+.overlap-3 {
+    position: relative;
+    height: 146px;
+}
+
+.COMUNIDADE-b-NUS {
+    position: absolute;
+    top: 15px;
+    left: 16px;
+    font-family: "Raleway", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 23.2px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame-8 {
+    position: absolute;
+    width: 343px;
+    height: 36px;
+    top: 110px;
+    left: 0;
+    background: linear-gradient(180deg, rgb(140.17, 57.63, 255) 0%, rgb(84.1, 34.58, 153) 100%);
+}
+
+.text-wrapper-8 {
+    font-weight: 900;
+    color: #fabb00;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.text-wrapper-10 {
+    font-weight: 900;
+    color: #fabb00;
+}
+
+.active-menu {
+    mix-blend-mode: exclusion !important;
+    color: rgb(140, 58, 255);
+    -webkit-box-shadow: rgba(140, 58, 255, 0.8) 0rem -1.3rem 0.4rem -1rem inset;
+    -moz-box-shadow: rgba(140, 58, 255, 0.8) 0rem -1.3rem 0.4rem -1rem inset;
+    box-shadow: rgba(140, 58, 255, 0.8) 0rem -1.3rem 0.4rem -1rem inset;
+}
+
+
+.card-image {
+    display: inline-flex;
+    height: 26.4vw;
+}
+
+
+.mbox {
+    border-radius: 1vmax;
+    background-clip: padding-box;
+    min-height: 48vh;
+    width: 80vw;
+
+    &.video {
+        width: 343px;
+        height: 193px;
+        overflow: hidden;
+        border: 1px solid;
+    }
+
+    &.purple-grad {
+        background: linear-gradient(to bottom, rgb(168.16, 57.63, 255), rgb(142.8, 0, 255));
+    }
+
+    &.orange-grad {
+        background: linear-gradient(to bottom, rgb(255, 248, 153), rgb(255, 106, 3));
+    }
+
+    &.p-01 {
+        padding: 0.1rem;
+    }
+
+    &.primary {
+        background: linear-gradient(180deg, rgb(140.17, 57.63, 255) 0%, rgb(84.1, 34.58, 153) 100%);
+
+    }
+
+    &.secondary {
+        background-color: black;
+        background: linear-gradient(180deg, #fabb00 0%, #e24400 100%);
+    }
+}
+
+progress,
+.input,
+.textarea {
+    border: 0.05rem solid var(--bulma-primary) !important;
+    border-radius: 1.25ch;
+}
