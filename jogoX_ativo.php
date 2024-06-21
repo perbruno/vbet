@@ -31,39 +31,56 @@ $cpf = base64_decode($_COOKIE['user']);
     <div class="container mt-4">
 
         <main class="mx-4 mt-5 mb-6 pb-4">
-            <a href="/jogos.php" class="href">
-        <span class="icon-text has-text-primary mb-5">
-  <span class="icon">
-    <i class="fas fa-arrow-circle-left"></i>
-  </span>
-  <span>Voltar e escolher outro jogo</span>
-</span>
-</a>
-        <i class="fa-solid fa-circle-arrow-left"></i>
             <div class="columns is-mobile">
-                <div class="column is-5 is-align-content-center">
+                <div class="column is-4 is-align-content-center">
                     <figure class="image desc">
                         <img src="https://bulma.io/assets/images/placeholders/128x128.png" />
                     </figure>
                 </div>
-                <div class="column is-grid">
-                    <div class="block">
+                <div class="column is-align-content-baseline">
+                    <div class="block is-size-7">
                         <h1 class="title mb-3 is-secondary is-size-4">Title</h1>
-                    </div>
-                    <div class="block is-align-content-flex-end">
-                        <p class=" is-size-6 ">Clique no botão para <b>ativar sua conta bônus</b> com ganhos desbloqueados em 99,99%</p>
+                        <div class="columns mb-0 pb-1 is-mobile is-gapless">
+                            <label class="column is-5 pb-0 label">Confiança:</label>
+                            <div class="column pb-0">
+                                <p class="p-0 pl-1 has-text-weight-semibold has-text-primary is-size-6"> 60% </p>
+                            </div>
+                        </div>
+                        <div class="is-align-content-center">
+                            <progress class="progress is-large is-primary" value="60" max="100">
+                                60%
+                            </progress>
+                        </div>
                     </div>
                 </div>
             </div>
-            <a href="/jogoX_ativo.php">
-            <div class="box-a orange-grad p-01 mt-6">
-                <div class="box-a secondary title is-6 has-text-centered is-align-content-center">
-                    <p>
-                        <i class="fas fa-check"></i>
-                        Ativar conta bônus
-                    </p>
-                </div>
-            </div></a>
+
+            <div class="block">
+                <fieldset disabled>
+                    <div class="field is-grouped is-size-7">
+                        <div class="field">
+                            <label class="label">Validade</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="e.g Alex Smith">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Entrada</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="e.g Alex Smith">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field is-size-7">
+                        <label class="label">Estratégia do Jogo</label>
+                        <div class="control">
+                            <textarea class="textarea" value="A, depois B, depois C" placeholder="Explain how we can help you"></textarea>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </div>
             <br><br><br>
         </main>
 
