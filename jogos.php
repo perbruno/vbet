@@ -28,28 +28,32 @@
  </head>
 
  <body>
-   <div class="container">
+   <div class="container is-max-desktop">
 
-     <nav class="navbar">
-       <div class="navbar-brand is-justify-content-space-around is-align-items-center">
-         <img class="navbar-item logo-alta" src="https://c.animaapp.com/K2IyW8PQ/img/logo-alta-vidente2-1@2x.png" />
-         <div class="navbar-start">
-           <div class="is-size-7">
-             <p class="has-text-weight-semibold">VIDENTE BET DESBLOQUEADO</p>
-             <p>Nome: <?php echo htmlspecialchars($nome) . ' ' . htmlspecialchars($sobrenome); ?></p>
-             <p>CPF: <?php echo htmlspecialchars($cpf); ?></p>
+     <section class="hero is-primary is-medium">
+       <div class="background">
+
+         <!-- Hero content: will be in the middle -->
+         <div class="hero-body">
+           <div class="container has-text-centered">
+             <!-- <img class="title" src="https://c.animaapp.com/K2IyW8PQ/img/logo-alta-vidente2-1@2x.png" /> -->
+
+             <p class="text-wrapper-7 is-size-5">
+                 Maior RTP</p>
+               <p class="text-wrapper-8 is-size-6">
+                 Do momento encontrado</p>
+             
            </div>
          </div>
-         <div class="navbar-end">
-           <div class="navbar-item has-text-centered" id="logout">
-             <div onmouseover="console.log('click')">
-               <img src="https://videntebet.com/V3/static/square.png" alt="Square Icon" />
-               <p class="has-text-weight-semibold has-text-primary">Exit</p>
-             </div>
-           </div>
+       </div> 
+
+       <!-- Hero footer: will stick at the bottom -->
+       <!-- <div class="hero-foot">
+         <div class="container">
+           <p>oi oi oi</p>
          </div>
-       </div>
-     </nav>
+       </div> -->
+     </section>
 
      <main class="mx-4 mt-5 mb-6 pb-4">
        <div class="grid">
@@ -131,7 +135,7 @@
 
 
      <footer class="navbar has-shadow is-dark is-fixed-bottom navbar-brand" role="navigation">
-       <a class="navbar-item is-expanded active-menu" href="/">
+       <a class="navbar-item is-expanded" href="/">
          <div class="column is-5 is-grid is-justify-content-center p-0">
            <div class="icon is-medium" style="justify-self: center;">
              <i class="fas fa-home fa-2x"></i>
@@ -139,7 +143,7 @@
            <p class="is-size-7 has-text-centered">Home</p>
          </div>
        </a>
-       <a class="navbar-item is-expanded" href="/jogos.php">
+       <a class="navbar-item is-expanded  active-menu" href="/jogos.php">
          <div class="column is-5 is-grid is-justify-content-center p-0">
            <div class="icon is-medium" style="justify-self: center;">
              <i class="fas fa-star fa-2x"></i>
@@ -170,7 +174,7 @@
 
      <div class="modal-content">
        <div class="mbox purple-grad p-0 m-auto">
-         <div class="mbox primary">
+         <div class="mbox primary is-grid">
            <div class="overlap-2 is-4">
              <div class="ellipse-2"></div>
              <div class="frame-6"></div>
@@ -190,19 +194,6 @@
                CLIQUE AQUI e destrave <br>todos os SLOTS PRO</p>
            </div>
          </div>
-       </div>
-     </div>
-
-     <button class="modal-close is-large" aria-label="close"></button>
-   </div>
-
-   <div id="modal-js-example2" class="modal">
-     <div class="modal-background"></div>
-
-     <div class="modal-content">
-       <div class="box">
-         <p>Modal JS example2</p>
-         <!-- Your content -->
        </div>
      </div>
 

@@ -186,10 +186,13 @@
    <div id="modal-js-example" class="modal">
      <div class="modal-background"></div>
 
-     <div class="modal-content px-4">
-       <div class="box purple-grad">
-         <p>Modal JS example</p>
-         <!-- Your content -->
+     <div class="modal-content">
+       <div class="mbox purple-grad p-0 m-auto">
+         <div class="mbox primary is-grid">
+           <div id="bePro" class="px-4 mt-5 has-text-centered">
+             <p class="text-wrapper-9">
+               CLIQUE AQUI e destrave <br>todos os SLOTS PRO</p>
+           </div>
        </div>
      </div>
 
@@ -200,7 +203,7 @@
      <div class="modal-background"></div>
 
      <div class="modal-content px-4">
-       <div class="box">
+       <div class="mbox">
          <p>Modal JS example2</p>
          <!-- Your content -->
        </div>
